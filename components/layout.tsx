@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
           <h1 className={utilStyles.heading2Xl}>{name}</h1>
         ) : (
           <h2 className={utilStyles.headingLg}>
-            <Link href="/">
+            <Link href="/nextjs-gh-actions">
               <a className={utilStyles.colorInherit}>{name}</a>
             </Link>
           </h2>
@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
+          <Link href="/nextjs-gh-actions">
             <a>← Back to home</a>
           </Link>
         </div>
