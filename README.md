@@ -1,1 +1,1 @@
-# nextjs-gh-actions
+nextjs-gh-actions
